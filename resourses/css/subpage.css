@@ -1,0 +1,260 @@
+.subpage-section {
+    width: 100%;
+    padding: 6rem 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url(img/portfolio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+    position: relative;
+}
+.back-key {
+    font-size: 1.5rem;
+    color: 
+    #333;
+    float: right;
+    position: relative;
+    top: -4rem;
+    right: 2rem;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    font-weight: 500;
+    color: #333;
+}
+
+h6 {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.subpage-section {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subpage-section .personal {
+    align-content: center;
+}
+
+.subpage-section .personal h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.subpage-section .personal img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    margin-left: 32%;
+}
+
+.personalcontent ul li {
+    list-style: none;
+
+}
+
+#persionalinfoul {
+    margin-left: 28%;
+}
+
+.timeline {
+    position: relative;
+    margin: auto;
+    width: 37.4rem;
+    padding: 10px 0px;
+    left: -3em;
+    height: 800px;
+    float: right;
+    top: 7em;
+}
+
+.timeline h3 {
+    position: absolute;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 11rem;
+    top: -6rem;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    width: .2rem;
+    height: 48rem;
+    background: #2c292954;
+    left: 50%;
+}
+
+.timeline ul {
+    margin: 0;
+    padding: 0;
+}
+
+.timeline ul li {
+    line-height: normal;
+    width: 48%;
+    position: relative;
+    padding: -2rem 4rem;
+
+}
+
+.timeline ul li:nth-child(odd) {
+    float: left;
+    text-align: right;
+    clear: both;
+    list-style: none;
+}
+
+.content.aos-init.aos-animate {
+    background: #f8f9fa;
+}
+
+.timeline ul li:nth-child(even) {
+    float: right;
+    text-align: left;
+    clear: both;
+    list-style: none;
+}
+
+.content {
+
+    padding: 2rem;
+    border: .2rem solid #26262673;
+    border-radius: .5rem;
+}
+
+
+
+@media only screen and (max-width:1024px) {
+  
+    .row .col.span_1_of_2.personal {
+        width: 33%;
+    }
+
+    .col.span_1_of_2.timeline {
+        width: 65%;
+        left: 3rem;
+    }
+
+    .subpage-section .personal h3 {
+        margin-right: 4rem;
+    }
+
+    .subpage-section .personal img {
+        width: 13rem;
+        height: 13rem;
+        margin-left: 1%;
+    }
+
+    #persionalinfoul {
+        margin-left: 1%;
+    }
+
+    .timeline h3 {
+        left: 9rem;
+        margin-left: 9rem;
+    }
+    .content.left.aos-init.aos-animate {
+    width: 78%;
+    margin-left: -3rem;
+}
+.content.right.aos-init.aos-animate {
+    width: 78%;
+}
+
+}
+
+@media only screen and (max-width:980px) {
+    .subpage-section .personal h3 {
+        font-size: 1.4rem
+    }
+
+    .subpage-section .timeline h3 {
+        font-size: 1.4rem;
+        margin-left: 1rem;
+    }
+
+    .col.span_1_of_2.timeline {
+    width: 58%;
+    left: 0rem;
+}
+   .timeline ul li:nth-child(2n+1)::before {
+    left: 14.78rem;
+}
+
+    .timeline ul li:nth-child(2n)::before {
+        right: 15.2rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .row .col.span_1_of_2.personal {
+        width: 100%;
+    }
+
+    .subpage-section .timeline h3 {
+        font-size: 1.4rem;
+        margin-left: 3rem;
+    }
+
+    .col.span_1_of_2.timeline {
+        width: 100%;
+        left: 2%;
+    }
+
+   
+    .subpage-section .personal h3 {
+        margin-right: 23rem;
+        margin-bottom: 3rem;
+    }
+
+    .row .col.span_1_of_2.personal {
+        width: 100%;
+        margin-left: 27%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .subpage-section .personal h3 {
+        width: 100%;
+    }
+
+    .row .col.span_1_of_2.personal {
+        width: 100%;
+        margin: 0;
+    }
+    .subpage-section .personal img{
+        margin-left: 18%;
+    }
+}
+.subpage-section .timeline h3 {
+    width: 100%;
+    left: 2%;
+}
+.content.left.aos-init.aos-animate {
+    width: 80%;
+    margin-left: -.9rem;
+}
+.content.right.aos-init.aos-animate {
+    width: 80%;
+    margin-right: -4rem;
+}
+.timeline ul li:nth-child(2n+1)::before {
+    left: 9.8rem;
+}
+
+.timeline ul li:nth-child(2n)::before {
+    right: 9.6rem;
+}
+
+}
+
+  
